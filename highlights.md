@@ -2,7 +2,16 @@
 
 共 27 篇，按板块、最新在前。由 `export_markdown.py` 每次运行重建。
 
-## Omni 全模态基座（2）
+## 空间音视频（2）
+
+- **2026-11-13** [MESH: Multi-receiver Evaluation of Spatial Hearing across Egocentric and Allocentric Views](https://arxiv.org/abs/2611.16787) · 可作 baseline
+  - 开源近4万题MESH，评测多接收器自他心空间听觉，现有模型远未过关。
+  - 代码已开源 · [卡片](issues/2026-11-13.md#a-2611.16787)
+- **2026-11-11** [AudioSphere: Towards Self-Supervised Spatial Audio Representation Models](https://arxiv.org/abs/2611.09275) · 可作 baseline
+  - Ambisonics掩码自编码学空间表征，并发布冻结SELD评测。
+  - 代码已开源 · [卡片](issues/2026-11-11.md#a-2611.09275)
+
+## Omni 全模态模型与智能体（2）
 
 - **2026-11-21** [WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding](https://arxiv.org/abs/2611.26409) · 扎实·影响力大 / 可作 baseline
   - 腾讯开源双语全模态视频理解模型族，1.2T与120+基准称开源SOTA
@@ -11,7 +20,7 @@
   - 音视频全双工世界模型，边感知边生成可打断。
   - 代码已开源 · [卡片](issues/2026-11-13.md#a-2611.15131)
 
-## 实时全双工交互（2）
+## 实时全双工交互（3）
 
 - **2026-11-13** [Decode Before You Hear: Speculative Listening for Chunk-Interleaved Full-Duplex Speech Language Models](https://arxiv.org/abs/2611.06982) · 开创性 / 可作 baseline
   - 听时用静音假设投机解码，无损加速全双工推理。
@@ -19,6 +28,9 @@
 - **2026-11-13** [An LLM Is All You Need: Data-Efficient Adaptation to Full-Duplex, Word-Level Spoken Dialogue](https://arxiv.org/abs/2611.14774) · 可作 baseline
   - 冻住多模态LLM，约30 GPU小时做成词级全双工。
   - 暂无 · [卡片](issues/2026-11-13.md#a-2611.14774)
+- **2026-11-11** [Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription](https://arxiv.org/abs/2611.06043) · 可作 baseline
+  - 用最长稳定前缀把全上下文 ASR 变成不可回改的流式识别。
+  - 代码已开源 · [卡片](issues/2026-11-11.md#a-2611.06043)
 
 ## 音频理解与生成（6）
 
@@ -41,25 +53,7 @@
   - 从公有领域乐谱渲染大规模开放许可分轨音频。
   - 暂无 · [卡片](issues/2026-11-11.md#a-2611.09140)
 
-## 语音/多模态智能体（1）
-
-- **2026-11-11** [Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription](https://arxiv.org/abs/2611.06043) · 可作 baseline
-  - 用最长稳定前缀把全上下文 ASR 变成不可回改的流式识别。
-  - 代码已开源 · [卡片](issues/2026-11-11.md#a-2611.06043)
-
-## 空间音视频与世界模型（3）
-
-- **2026-11-24** [World Models as Native Latent Action Models](https://arxiv.org/abs/2611.30898) · 开创性
-  - 从预训练视频世界模型抽出 native 隐空间动作并预训练 VLA
-  - 仅主页 · [卡片](issues/2026-11-24.md#a-2611.30898)
-- **2026-11-13** [MESH: Multi-receiver Evaluation of Spatial Hearing across Egocentric and Allocentric Views](https://arxiv.org/abs/2611.16787) · 可作 baseline
-  - 开源近4万题MESH，评测多接收器自他心空间听觉，现有模型远未过关。
-  - 代码已开源 · [卡片](issues/2026-11-13.md#a-2611.16787)
-- **2026-11-11** [AudioSphere: Towards Self-Supervised Spatial Audio Representation Models](https://arxiv.org/abs/2611.09275) · 可作 baseline
-  - Ambisonics掩码自编码学空间表征，并发布冻结SELD评测。
-  - 代码已开源 · [卡片](issues/2026-11-11.md#a-2611.09275)
-
-## 第一人称与全景视觉（8）
+## 第一人称与全景理解（8）
 
 - **2026-11-24** [EgoDepth-Bench: Benchmarking Metric Depth for Egocentric Manipulation](https://arxiv.org/abs/2611.30734) · 可作 baseline
   - 94万样本的第一人称操作度量深度基准
@@ -85,6 +79,12 @@
 - **2026-11-11** [RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning](https://arxiv.org/abs/2611.10994) · 可作 baseline
   - 光学动捕对齐头戴多相机，做人形全身运动与落脚评测。
   - 仅主页 · [卡片](issues/2026-11-11.md#a-2611.10994)
+
+## 交互式与通用世界模型（1）
+
+- **2026-11-24** [World Models as Native Latent Action Models](https://arxiv.org/abs/2611.30898) · 开创性
+  - 从预训练视频世界模型抽出 native 隐空间动作并预训练 VLA
+  - 仅主页 · [卡片](issues/2026-11-24.md#a-2611.30898)
 
 ## 上游方法前沿（5）
 
