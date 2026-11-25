@@ -2,7 +2,7 @@
 
 *Spatial Audio & Audio-Visual Understanding*
 
-> 重点聚焦空间理解，Audio-only 与 Audio-Visual 双线并重；A + 扎实 B 均收，享有保护名额
+> 重点聚焦空间理解，Audio-only 与 Audio-Visual 双线并重；与板块 2–5 同一标准（只收好与非常好），无保护名额
 
 共 2 篇 A、11 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
 

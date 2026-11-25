@@ -4,7 +4,7 @@
 
 > 语音/音频大模型（含纯音频侧推理、工具调用与语音能动性）、TTS/音效/音乐生成、语音-文本对齐与 tokenizer、大规模高质量语音数据集与管线
 
-共 6 篇 A、61 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
+共 6 篇 A、64 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
 
 ## A 类（6）
 
@@ -33,10 +33,13 @@
   - Dataset · 暂无
   - 技术关键词：source separation · stem-conditioned synthesis · MIDI-to-audio
 
-## B 类（61）
+## B 类（64）
 
 | 日期 | 标题 | 核心改动 | 类型 | 方法族 | 副板块 | 代码/数据 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [2026-11-25](../issues/2026-11-25.md) | [SoundWeaver: Compositional Warm-Starting for Text-to-Audio Diffusion Serving](https://arxiv.org/abs/2603.07865)<br><sub>University of Illinois Urbana-Champaign/Assured Intelligence · ICLR 2027 Conference Submission</sub> | 跨缓存片段拼成声学先验，自适应热启动文生音频扩散 | Method / System/Code | — | — | 暂无 |
+| [2026-11-25](../issues/2026-11-25.md) | [VividAudio: Multi-Event Reference-Conditioned Video-to-Audio Generation](https://arxiv.org/abs/2611.32458)<br><sub>Zhejiang University; ByteDance</sub> | 多事件参考配音：视频内变造配对，时间对齐参考经双路注入与路由防串扰。 | Method / Benchmark | 数据与评测 | — | 暂无 |
+| [2026-11-25](../issues/2026-11-25.md) | [Reproducing the Speech Labels of Qwen3-Omni's Talker: Mimi in bf16, and a Last-Frame Pitfall](https://arxiv.org/abs/2611.32286)<br><sub>The Chinese University of Hong Kong, Shenzhen</sub> | 钉死Talker标签为moshi bf16 Mimi，填充末帧去掉噪声 | System/Code / Tech Report | — | — | [代码已开源](https://github.com/elpsykongloo/qwen3-omni-talker-finetune) |
 | [2026-11-24](../issues/2026-11-24.md) | [MusicListenBench: Can Audio LLMs Hear the Difference Yet?](https://arxiv.org/abs/2611.29375)<br><sub>SUTD · ICLR 2027 (submission)</sub> | 用 FLIP/STAY 对测音频 LLM 能否分辨旋律和弦而非声响变化 | Benchmark / Method | 数据与评测 / 在线强化学习 | — | 暂无 |
 | [2026-11-24](../issues/2026-11-24.md) | [SonicRender: Structured and Time-Grounded Rendering of Multi-Event Audio Scene Generation](https://arxiv.org/abs/2611.30241)<br><sub>Kling AI / CUHK</sub> | 用时序音频场景图与绝对时间坐标一次生成多事件混合 | Method | 架构与流式 | — | [仅主页](https://caiyunrui.github.io/SonicRender) |
 | [2026-11-24](../issues/2026-11-24.md) | [MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake](https://arxiv.org/abs/2611.31301)<br><sub>Vector Institute</sub> | 发布音视频四分类配对深度伪造基准以拆开假模态 | Dataset / Benchmark | 数据与评测 | — | [仅主页](https://vectorinstitute.github.io/mozaic/) |

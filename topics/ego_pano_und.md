@@ -4,7 +4,7 @@
 
 > 严格只收理解：第一人称（可穿戴/AI 眼镜）与 360° 全景视频的时空理解、问答、流式记忆、场景与三维几何感知
 
-共 8 篇 A、63 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
+共 8 篇 A、64 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
 
 ## A 类（8）
 
@@ -41,10 +41,11 @@
   - Dataset · 仅主页
   - 技术关键词：motion capture · egocentric · loco-manipulation
 
-## B 类（63）
+## B 类（64）
 
 | 日期 | 标题 | 核心改动 | 类型 | 方法族 | 副板块 | 代码/数据 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [2026-11-25](../issues/2026-11-25.md) | [Clinical3D-Bench: Evaluating and Improving Spatial Intelligence of Multimodal LLMs in Hospital Environments](https://arxiv.org/abs/2611.32094)<br><sub>University of Science and Technology of China / IAIC, A*STAR / Wenzhou Medical University</sub> | 建医院第一人称空间问答基准，用三维原语修正选项分 | Benchmark / Method | 推理范式 / 数据与评测 | — | [数据已开源](https://huggingface.co/datasets/clinicalspace/Clinical3D-Bench) |
 | [2026-11-24](../issues/2026-11-24.md) | [G0.7: Scaling Up a Fast World Action Model with Long Context](https://arxiv.org/abs/2611.31822)<br><sub>Galaxea</sub> | 把 Fast-WAM 扩到五分钟上下文，并用第一人称视频预训练 | Model/Weights / Tech Report | 架构与流式 / 数据与评测 | 空间音视频 | 暂无 |
 | [2026-11-24](../issues/2026-11-24.md) | [Ego2Wrist: Bootstrapping Wrist-View Synthesis from Egocentric Video](https://arxiv.org/abs/2611.29850)<br><sub>Yale University</sub> | 由头戴视频合成腕部视角，并用 HCC 自举改进 | Method | 数据与评测 | — | [仅主页](https://adonis-galaxy.github.io/Ego2Wrist/) |
 | [2026-11-24](../issues/2026-11-24.md) | [HIVE-Bench: Evaluating Patch-Level Visual Representations for Egocentric Robot Manipulation](https://arxiv.org/abs/2611.30813)<br><sub>HKUST (Guangzhou) · ICLR 2027 Conference Submission</sub> | 用同一策略头比较 20 个第一人称 patch 视觉编码器 | Benchmark | 数据与评测 | — | [代码已开源](https://github.com/KolaKivy/HIVE-Bench) |
