@@ -8,20 +8,17 @@
 
 ## 关注方向
 
-### Omni-Modal & Speech
+2026-11 起改为七大板块（每篇一个主板块，必要时一个副板块）。往期已按确定规则映射到新板块，原方向保存在 `legacyDir` 字段。
 
-- **Omni 基座模型**（Omni-Modal Foundation Models）
-- **全双工对话**（Full-Duplex Spoken Dialogue）
-- **语音智能体**（Interactive Voice Agents）
-- **语音-文本对齐**（Speech-Text Alignment）
-- **音频理解与生成**（Audio Understanding & Generation）
+1. **Omni 全模态基座**（Omni-Modal Foundation Models） · [专题索引](topics/omni_fm.md)
+2. **实时全双工交互**（Real-Time Full-Duplex Interaction） · [专题索引](topics/full_duplex.md)
+3. **音频理解与生成**（Audio Understanding & Generation） · [专题索引](topics/audio_ug.md)
+4. **语音/多模态智能体**（Voice & Multimodal Agents） · [专题索引](topics/voice_agent.md)
+5. **空间音视频与世界模型**（Spatial Audio-Visual & World Models） · [专题索引](topics/spatial_world.md)
+6. **第一人称与全景视觉**（Egocentric & Panoramic Vision） · [专题索引](topics/ego_pano.md)
+7. **上游方法前沿（后训练/推理）**（只收 A，试行）（Upstream Methods (Post-Training / Reasoning)） · [专题索引](topics/upstream_methods.md)
 
-### Spatial & Reasoning
-
-- **空间音视频**（Spatial Audio-Visual Understanding & Generation）
-- **第一人称视觉**（Egocentric Vision Understanding）
-- **全景视觉**（Omnidirectional & Panoramic Vision Understanding）
-- **多模态后训练**（Multimodal Post-Training）
+跨期精华：[highlights.md](highlights.md)（全部 A 类，按板块）。
 
 ## 往期目录
 
@@ -29,6 +26,7 @@
 
 | 期次 | 日期 | 风格 | A | B | 本期要点 | 阅读 |
 | --- | --- | --- | ---: | ---: | --- | --- |
+| 第 8 期 | 2026-11-24 | Kimi 风格 | 8 | 38 | [Granary-v2](https://arxiv.org/abs/2611.28248)；[World Models as Native Latent Action Models](https://arxiv.org/abs/2611.30898)；[EgoDepth-Bench](https://arxiv.org/abs/2611.30734)；[OmniV-Bench](https://arxiv.org/abs/2611.31022)；[Gumbel Substitution](https://arxiv.org/abs/2611.27375)；[Unlocking the Power of Loops in Pretrained LLMs with Loop Residuals](https://arxiv.org/abs/2611.31094)；[Composable Soft-Prompt Distillation of RL Experts](https://arxiv.org/abs/2611.27376)；[Verifiable On-Policy Distillation](https://arxiv.org/abs/2611.30325) | [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-24/) · [Markdown](issues/2026-11-24.md) |
 | 第 7 期 | 2026-11-23 | OpenAI 风格 | 1 | 16 | [RoboCap-10k](https://arxiv.org/abs/2611.26916) | [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-23/) · [Markdown](issues/2026-11-23.md) |
 | 第 6 期 | 2026-11-21 | 水墨风 | 3 | 14 | [WeMM-Video](https://arxiv.org/abs/2611.26409)；[HumanCOIN](https://arxiv.org/abs/2611.26434)；[EgoWitness](https://arxiv.org/abs/2611.25849) | [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-21/) · [Markdown](issues/2026-11-21.md) |
 | 第 5 期 | 2026-11-19 | 杂志风 | 1 | 31 | [Evolve in Panorama, Render in View](https://arxiv.org/abs/2611.22733) | [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-19/) · [Markdown](issues/2026-11-19.md) |
@@ -40,5 +38,7 @@
 ## 说明
 
 - A 类至少满足以下一条：扎实且预期影响大、可作 baseline、开拓新方向。卡片里的分级依据、数字和机构均来自当期筛选记录，没有的字段不会补写。
-- B 类是完整但偏增量、工程或领域迁移的工作。
+- B 类是完整但偏增量、工程或领域迁移的工作，按板块以表格列出，每板块最多 15 篇（往期为 8 篇）。
+- 「研究联想（模型推测，非论文结论）」是模型根据论文方法给出的迁移设想，不是论文结论，仅供参考。
+- 「代码/数据」由链接检测得出：代码已开源 / 权重已开源 / 数据已开源 / 仅主页 / 暂无；“即将开源”的空仓库记为仅主页。
 - 每期由 Paper Bot 流水线从 `runs/issues.json` 生成当时风格的网页（`docs/issues/<date>/`）和 Markdown，再提交到本仓库。

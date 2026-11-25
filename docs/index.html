@@ -34,6 +34,8 @@
   .sep { margin: 0 6px; color: var(--muted); }
   footer { margin-top: 40px; font-size: 13px; color: var(--muted); }
   footer a { color: inherit; }
+  .nav { display:flex; flex-wrap:wrap; gap:8px; margin: 0 0 24px; }
+  .nav a { padding: 4px 10px; border:1px solid var(--line); border-radius:999px; text-decoration:none; font-size:13px; }
   @media (max-width: 720px) {
     th:nth-child(3), td:nth-child(3) { display: none; }
   }
@@ -43,11 +45,13 @@
 <main>
   <h1>Paper Bot 推送归档</h1>
   <p class="lead">每两天一期的语音、音频与空间/第一人称多模态论文筛选。每一期网页保留<strong>当时的版式风格</strong>，并随系统浅色/深色自动切换。也可以只看 Markdown。最新一期同时在 <a href="https://cursor.com/canvas/store-e1c619e9-9a18-45c2-be84-6a0452d9876f/64510c92-4dce-4196-b8b8-1f618dc85549">Paper Bot 推送 Page</a> 发布。</p>
+  <nav class="nav"><a href="highlights.html">跨期精华</a><a href="topics/omni_fm.html">Omni 全模态基座</a><a href="topics/full_duplex.html">实时全双工交互</a><a href="topics/audio_ug.html">音频理解与生成</a><a href="topics/voice_agent.html">语音/多模态智能体</a><a href="topics/spatial_world.html">空间音视频与世界模型</a><a href="topics/ego_pano.html">第一人称与全景视觉</a><a href="topics/upstream_methods.html">上游方法前沿</a><a href="topics/mm_post_training.html">往期·多模态后训练（旧分类）</a></nav>
   <table>
     <thead>
       <tr><th>期次</th><th>日期</th><th>风格</th><th class="n">A</th><th class="n">B</th><th>阅读</th></tr>
     </thead>
     <tbody>
+<tr><td>第 8 期</td><td><a href="issues/2026-11-24/">2026-11-24</a></td><td>Kimi 风格</td><td class="n">8</td><td class="n">38</td><td><div class="hl">七板块新版首期：8 篇 A，上游方法前沿占 4 篇</div><a href="issues/2026-11-24/">网页</a><span class="sep">·</span><a href="issues/2026-11-24.md">Markdown</a></td></tr>
 <tr><td>第 7 期</td><td><a href="issues/2026-11-23/">2026-11-23</a></td><td>OpenAI 风格</td><td class="n">1</td><td class="n">16</td><td><div class="hl">RoboCap-10k 给出带度量三维的职业第一人称数据基座</div><a href="issues/2026-11-23/">网页</a><span class="sep">·</span><a href="issues/2026-11-23.md">Markdown</a></td></tr>
 <tr><td>第 6 期</td><td><a href="issues/2026-11-21/">2026-11-21</a></td><td>水墨风</td><td class="n">3</td><td class="n">14</td><td><div class="hl">WeMM-Video 给出开源全模态视频新基线</div><a href="issues/2026-11-21/">网页</a><span class="sep">·</span><a href="issues/2026-11-21.md">Markdown</a></td></tr>
 <tr><td>第 5 期</td><td><a href="issues/2026-11-19/">2026-11-19</a></td><td>杂志风</td><td class="n">1</td><td class="n">31</td><td><div class="hl">PanoEvo 让看不见的世界继续演化</div><a href="issues/2026-11-19/">网页</a><span class="sep">·</span><a href="issues/2026-11-19.md">Markdown</a></td></tr>
