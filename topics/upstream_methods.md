@@ -1,10 +1,10 @@
-# 第 7 板块 · 上游方法前沿（后训练/推理）
+# 第 7 板块 · 上游方法前沿
 
-*Upstream Methods (Post-Training / Reasoning)*
+*Upstream Methods (Post-Training / Reasoning / Architecture)*
 
-> 只收 NLP/VLM 刚出的硬核新方法（新 RL 算法、在线蒸馏、隐空间推理、测试时扩展等）的原创或跨模态首篇；普通刷榜/迁移文不收。试运行
+> 只收 A：后训练（RL/OPD/对齐）、推理范式、测试时扩展与流式/通用架构的前沿突破；普通刷榜/迁移文不收
 
-本板块只收 A（原创方法或首次跨模态应用），试行。
+前沿雷达：本板块只收 A（v4 起）。v4 之前映射进来的往期 B 保留在下方，仅供回看。
 
 共 5 篇 A、0 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
 
