@@ -1,6 +1,6 @@
 # 跨期精华 · 全部 A 类
 
-共 27 篇，按板块、最新在前。由 `export_markdown.py` 每次运行重建。
+共 19 篇，按板块、最新在前。由 `export_markdown.py` 每次运行重建。
 
 ## 空间音视频（2）
 
@@ -32,11 +32,8 @@
   - 用最长稳定前缀把全上下文 ASR 变成不可回改的流式识别。
   - 代码已开源 · [卡片](issues/2026-11-11.md#a-2611.06043)
 
-## 音频理解与生成（6）
+## 音频理解与生成（5）
 
-- **2026-11-24** [Granary-v2: Scalable Multilingual Speech Data Curation for Predictable and Controllable Model Outputs](https://arxiv.org/abs/2611.28248) · 可作 baseline
-  - 扩展至48语约84万小时，提供多形态转写与指令对及开源策管线
-  - 代码已开源 · [卡片](issues/2026-11-24.md#a-2611.28248)
 - **2026-11-13** [ZONOS3-Mini Technical Report](https://arxiv.org/abs/2611.16525) · 可作 baseline
   - 开源端侧零样本克隆TTS，15Hz新编解码，55语WER 6.71%
   - 代码已开源 · [卡片](issues/2026-11-13.md#a-2611.16525)
@@ -53,14 +50,8 @@
   - 从公有领域乐谱渲染大规模开放许可分轨音频。
   - 暂无 · [卡片](issues/2026-11-11.md#a-2611.09140)
 
-## 第一人称与全景理解（8）
+## 第一人称与全景理解（6）
 
-- **2026-11-24** [EgoDepth-Bench: Benchmarking Metric Depth for Egocentric Manipulation](https://arxiv.org/abs/2611.30734) · 可作 baseline
-  - 94万样本的第一人称操作度量深度基准
-  - 仅主页 · [卡片](issues/2026-11-24.md#a-2611.30734)
-- **2026-11-24** [OmniV-Bench: Can MLLMs Comprehend Immersive Spatio-temporal Scenes?](https://arxiv.org/abs/2611.31022) · 可作 baseline
-  - 4123条全景视频、11项任务的 MLLM 时空理解基准
-  - 暂无 · [卡片](issues/2026-11-24.md#a-2611.31022)
 - **2026-11-23** [RoboCap-10k: A Metrically Accurate Egocentric Dataset for Robot Learning](https://arxiv.org/abs/2611.26916) · 扎实·影响力大 / 可作 baseline
   - 约一万小时单设备职业第一人称视频，含度量头手三维标注。
   - 仅主页 · [卡片](issues/2026-11-23.md#a-2611.26916)
@@ -80,26 +71,8 @@
   - 光学动捕对齐头戴多相机，做人形全身运动与落脚评测。
   - 仅主页 · [卡片](issues/2026-11-11.md#a-2611.10994)
 
-## 交互式与通用世界模型（1）
+## 上游方法前沿（1）
 
-- **2026-11-24** [World Models as Native Latent Action Models](https://arxiv.org/abs/2611.30898) · 开创性
-  - 从预训练视频世界模型抽出 native 隐空间动作并预训练 VLA
-  - 仅主页 · [卡片](issues/2026-11-24.md#a-2611.30898)
-
-## 上游方法前沿（5）
-
-- **2026-11-24** [Gumbel Substitution: Removing Sampler Drift from RL Without Trusting the Sampler](https://arxiv.org/abs/2611.27375) · 开创性 / 扎实·影响力大
-  - 用公开Gumbel噪声替换采样，去掉不信任sampler的漂移
-  - 代码已开源 · [卡片](issues/2026-11-24.md#a-2611.27375)
-- **2026-11-24** [Unlocking the Power of Loops in Pretrained LLMs with Loop Residuals](https://arxiv.org/abs/2611.31094) · 扎实·影响力大 / 可作 baseline
-  - 用循环残差把预训练LLM改成可测试时扩展的loop
-  - 代码已开源 · [卡片](issues/2026-11-24.md#a-2611.31094)
-- **2026-11-24** [Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training](https://arxiv.org/abs/2611.27376) · 开创性 / 可作 baseline
-  - 把每个RL专家蒸馏成软提示，拼接即可组合
-  - 代码已开源 · [卡片](issues/2026-11-24.md#a-2611.27376)
-- **2026-11-24** [Verifiable On-Policy Distillation](https://arxiv.org/abs/2611.30325) · 开创性
-  - 把可验证奖励投影到教师隐式奖励，做成稠密VOPD目标
-  - 仅主页 · [卡片](issues/2026-11-24.md#a-2611.30325)
 - **2026-11-11** [Mental Imagery That Matters: Curing Latent Collapse in Multimodal Reasoning](https://arxiv.org/abs/2611.10423) · 开创性
   - 揭示潜空间视觉推理的心象坍缩，并用对比蒸馏使其真正生效。
   - 仅主页 · [卡片](issues/2026-11-11.md#a-2611.10423)

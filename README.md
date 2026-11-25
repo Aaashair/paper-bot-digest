@@ -2,7 +2,7 @@
 
 个人用的论文筛选归档，宁缺毋滥。每周三、周六中午（新加坡时间）更新。
 
-最新：第 9 期 · 2026-11-25（2026-11-25 – 2026-11-25）· [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-25/) · [Markdown](issues/2026-11-25.md) · [Page](https://cursor.com/canvas/store-e1c619e9-9a18-45c2-be84-6a0452d9876f/64510c92-4dce-4196-b8b8-1f618dc85549)
+最新：第 8 期 · 2026-11-25（2026-11-22 – 2026-11-25）· [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-25/) · [Markdown](issues/2026-11-25.md) · [Page](https://cursor.com/canvas/store-e1c619e9-9a18-45c2-be84-6a0452d9876f/64510c92-4dce-4196-b8b8-1f618dc85549)
 
 ## 板块
 
@@ -21,8 +21,7 @@
 
 | 期次 | 日期 | 风格 | A | B | 阅读 |
 | --- | --- | --- | ---: | ---: | --- |
-| 第 9 期 | 2026-11-25 | Kimi 风格 | 0 | 5 | [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-25/) · [Markdown](issues/2026-11-25.md) |
-| 第 8 期 | 2026-11-24 | Kimi 风格 | 8 | 38 | [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-24/) · [Markdown](issues/2026-11-24.md) |
+| 第 8 期 | 2026-11-25 | Kimi 风格 | 0 | 15 | [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-25/) · [Markdown](issues/2026-11-25.md) |
 | 第 7 期 | 2026-11-23 | OpenAI 风格 | 1 | 16 | [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-23/) · [Markdown](issues/2026-11-23.md) |
 | 第 6 期 | 2026-11-21 | 水墨风 | 3 | 14 | [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-21/) · [Markdown](issues/2026-11-21.md) |
 | 第 5 期 | 2026-11-19 | 杂志风 | 1 | 31 | [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-19/) · [Markdown](issues/2026-11-19.md) |
