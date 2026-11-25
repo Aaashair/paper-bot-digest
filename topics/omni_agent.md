@@ -4,7 +4,7 @@
 
 > 原生统一语音/音频+视觉+文本的基座与统一表征，及模型原生的全模态/音视频智能体能力；只收好与非常好
 
-共 2 篇 A、20 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
+共 2 篇 A、19 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
 
 ## A 类（2）
 
@@ -17,13 +17,12 @@
   - Tech Report / Method · 代码已开源 · inclusionAI
   - 技术关键词：RWM · full-duplex · dual rollout distillation
 
-## B 类（20）
+## B 类（19）
 
 | 日期 | 标题 | 核心改动 | 类型 | 方法族 | 副板块 | 代码/数据 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [2026-11-25](../issues/2026-11-25.md) | [StudioBench: Benchmarking Agentic Multimodal Large Language Models for Productive Audiovisual Creation](https://arxiv.org/abs/2611.28902)<br><sub>Tencent / University of Chinese Academy of Sciences / Peking University</sub> | 提出160任务的无模板音视频成片智能体基准并诊断质量闭环 | Benchmark | 数据与评测 | — | [代码已开源](https://github.com/openraiser/StudioBench) |
 | [2026-11-25](../issues/2026-11-25.md) | [Open-OmniCoach: Evidence-Enhanced Trajectory Learning for Omni Video Agents](https://arxiv.org/abs/2611.31891)<br><sub>ICLR 2027 Conference Submission</sub> | 用24.8万证据轨迹和SEPO训练全模态视频智能体 | Method / Dataset | 在线强化学习 / 数据与评测 | — | [代码已开源](https://github.com/Open-OmniCoach/omnicoach) |
-| [2026-11-24](../issues/2026-11-24.md) | [StudioBench: Benchmarking Agentic Multimodal Large Language Models for Productive Audiovisual Creation](https://arxiv.org/abs/2611.28902)<br><sub>Tencent</sub> | 用33个工具评测MLLM端到端制作有声短片 | Benchmark | 数据与评测 | — | [代码已开源](https://github.com/openraiser/StudioBench) |
-| [2026-11-24](../issues/2026-11-24.md) | [Visual-RFT++: Extending Visual Reinforcement Fine-Tuning to Multimodal Tool Use](https://arxiv.org/abs/2611.30193)<br><sub>Shanghai AI Laboratory</sub> | 将视觉RFT扩展到搜网与图像代码工具调用 | Method / Benchmark | 在线强化学习 | — | [代码已开源](https://github.com/Liuziyu77/Visual-RFT) |
 | [2026-11-21](../issues/2026-11-21.md) | [HiUni: Harmonizing Understanding and Generation in Shared Visual Space](https://arxiv.org/abs/2611.26107)<br><sub>ERNIE Team, Baidu · ICLR 2027 Conference Submission</sub> | ERNIE用共享ViT与稠密骨干把VLM扩成理解+像素扩散生成 | — | — | — | 暂无 |
 | [2026-11-19](../issues/2026-11-19.md) | [The Elephant in the Question: Unified Models Picture the Concepts Behind Their Answers](https://arxiv.org/abs/2611.24793) | 用统一模型自带图像生成器可视化token隐状态，无需训练解码器。 | — | — | — | 暂无 |
 | [2026-11-19](../issues/2026-11-19.md) | [Understanding Cross-Modal Inconsistency through Representation Subspaces in Omni Models](https://arxiv.org/abs/2611.22619)<br><sub>Soongsil University · EACL 2027 Main</sub> | 跨模态不一致的可解码方向并不等于可干预的答案子空间。 | — | — | — | 暂无 |

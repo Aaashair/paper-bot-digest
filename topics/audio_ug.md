@@ -4,14 +4,10 @@
 
 > 语音/音频大模型（含纯音频侧推理、工具调用与语音能动性）、TTS/音效/音乐生成、语音-文本对齐与 tokenizer、大规模高质量语音数据集与管线
 
-共 6 篇 A、64 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
+共 5 篇 A、52 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
 
-## A 类（6）
+## A 类（5）
 
-- **2026-11-24** · [Granary-v2: Scalable Multilingual Speech Data Curation for Predictable and Controllable Model Outputs](https://arxiv.org/abs/2611.28248) · [第 8 期卡片](../issues/2026-11-24.md#a-2611.28248)
-  - 扩展至48语约84万小时，提供多形态转写与指令对及开源策管线
-  - Dataset / System/Code · 代码已开源 · NVIDIA
-  - 技术关键词：Granary-v2 · NeMo Curator · Transformer-TDT
 - **2026-11-13** · [ZONOS3-Mini Technical Report](https://arxiv.org/abs/2611.16525) · [第 2 期卡片](../issues/2026-11-13.md#a-2611.16525)
   - 开源端侧零样本克隆TTS，15Hz新编解码，55语WER 6.71%
   - Tech Report / Model/Weights · 代码已开源
@@ -33,29 +29,17 @@
   - Dataset · 暂无
   - 技术关键词：source separation · stem-conditioned synthesis · MIDI-to-audio
 
-## B 类（64）
+## B 类（52）
 
 | 日期 | 标题 | 核心改动 | 类型 | 方法族 | 副板块 | 代码/数据 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [2026-11-25](../issues/2026-11-25.md) | [LiveAudio: From Bidirectional to Autoregressive Diffusion for Real-Time Streaming Video-to-Audio Generation](https://arxiv.org/abs/2611.30714)<br><sub>Tsinghua University / Monash University / Renmin University of China</sub> | 把双向视频到音频模型转成四步实时分块生成器 | Method / System/Code | 架构与流式 | — | [仅主页](https://streamaudio.github.io/) |
+| [2026-11-25](../issues/2026-11-25.md) | [MusicListenBench: Can Audio LLMs Hear the Difference Yet?](https://arxiv.org/abs/2611.29375)<br><sub>Singapore University of Technology and Design/University of Venice · ICLR 2027 Conference Submission</sub> | 成对FLIP/STAY听辨，分开音乐变化与纯声响变化 | Benchmark | 数据与评测 / 在线强化学习 | — | [代码已开源](https://github.com/AMAAI-Lab/MusicListenBench) |
 | [2026-11-25](../issues/2026-11-25.md) | [SoundWeaver: Compositional Warm-Starting for Text-to-Audio Diffusion Serving](https://arxiv.org/abs/2603.07865)<br><sub>University of Illinois Urbana-Champaign/Assured Intelligence · ICLR 2027 Conference Submission</sub> | 跨缓存片段拼成声学先验，自适应热启动文生音频扩散 | Method / System/Code | — | — | 暂无 |
-| [2026-11-25](../issues/2026-11-25.md) | [VividAudio: Multi-Event Reference-Conditioned Video-to-Audio Generation](https://arxiv.org/abs/2611.32458)<br><sub>Zhejiang University; ByteDance</sub> | 多事件参考配音：视频内变造配对，时间对齐参考经双路注入与路由防串扰。 | Method / Benchmark | 数据与评测 | — | 暂无 |
+| [2026-11-25](../issues/2026-11-25.md) | [BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models](https://arxiv.org/abs/2611.30723)<br><sub>Japan Advanced Institute of Science and Technology</sub> | 双分支共享索引，把声学与语义收成单流词元 | Method | 架构与流式 | — | [仅主页](https://seekmind-lab.github.io/bisat-demo) |
+| [2026-11-25](../issues/2026-11-25.md) | [SonicRender: Structured and Time-Grounded Rendering of Multi-Event Audio Scene Generation](https://arxiv.org/abs/2611.30241)<br><sub>Kling AI / The Chinese University of Hong Kong / Tsinghua University</sub> | 用场景图绑定声源与时间窗，并以绝对帧坐标一次生成多事件混合。 | Method | 架构与流式 | — | [仅主页](https://caiyunrui.github.io/SonicRender) |
+| [2026-11-25](../issues/2026-11-25.md) | [Tenlai-TTS 2.0: Continuous-Representation LLM-Based TTS System with End-to-End Training](https://arxiv.org/abs/2611.29226)<br><sub>Tencent Yuanbao / Tencent Ethereal Audio Lab</sub> | 用有闭式信息率上界的高斯瓶颈端到端训练连续语音TTS | Method / Tech Report | 架构与流式 | — | [仅主页](https://tenlai-tts.github.io/Tenlai-TTS-2.0/) |
 | [2026-11-25](../issues/2026-11-25.md) | [Reproducing the Speech Labels of Qwen3-Omni's Talker: Mimi in bf16, and a Last-Frame Pitfall](https://arxiv.org/abs/2611.32286)<br><sub>The Chinese University of Hong Kong, Shenzhen</sub> | 钉死Talker标签为moshi bf16 Mimi，填充末帧去掉噪声 | System/Code / Tech Report | — | — | [代码已开源](https://github.com/elpsykongloo/qwen3-omni-talker-finetune) |
-| [2026-11-24](../issues/2026-11-24.md) | [MusicListenBench: Can Audio LLMs Hear the Difference Yet?](https://arxiv.org/abs/2611.29375)<br><sub>SUTD · ICLR 2027 (submission)</sub> | 用 FLIP/STAY 对测音频 LLM 能否分辨旋律和弦而非声响变化 | Benchmark / Method | 数据与评测 / 在线强化学习 | — | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [SonicRender: Structured and Time-Grounded Rendering of Multi-Event Audio Scene Generation](https://arxiv.org/abs/2611.30241)<br><sub>Kling AI / CUHK</sub> | 用时序音频场景图与绝对时间坐标一次生成多事件混合 | Method | 架构与流式 | — | [仅主页](https://caiyunrui.github.io/SonicRender) |
-| [2026-11-24](../issues/2026-11-24.md) | [MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake](https://arxiv.org/abs/2611.31301)<br><sub>Vector Institute</sub> | 发布音视频四分类配对深度伪造基准以拆开假模态 | Dataset / Benchmark | 数据与评测 | — | [仅主页](https://vectorinstitute.github.io/mozaic/) |
-| [2026-11-24](../issues/2026-11-24.md) | [Tenlai-TTS 2.0: Continuous-Representation LLM-Based TTS System with End-to-End Training](https://arxiv.org/abs/2611.29226) | 端到端学习连续语音隐空间，并用可微反馈与 RL 优化 AR-TTS | Method / Model/Weights | 架构与流式 / 在线强化学习 | — | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [LiveAudio: From Bidirectional to Autoregressive Diffusion for Real-Time Streaming Video-to-Audio Generation](https://arxiv.org/abs/2611.30714)<br><sub>Tsinghua University</sub> | 把双向视频到音频扩散模型因果微调并蒸馏成实时流式生成 | Method / Model/Weights | 架构与流式 | — | [仅主页](https://streamaudio.github.io) |
-| [2026-11-24](../issues/2026-11-24.md) | [SpeechSplice: Pronunciation Control in Encoder-Decoder LLM-based TTS by Replacing Encoder Hidden States](https://arxiv.org/abs/2611.30927)<br><sub>Matsuo Institute / University of Tokyo · Findings of EACL 2027</sub> | 无训练替换编码器隐状态，以控制 LLM-TTS 发音 | Method | 架构与流式 | — | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [Music Circuit: Trace and Control Style Dynamics in Large Music Generation Model](https://arxiv.org/abs/2611.29475)<br><sub>MBZUAI · ICLR 2027 (submission)</sub> | 在 YuE2 中定位并转向驱动音乐风格的稀疏回路 | Method | — | — | [仅主页](https://aristo233.github.io/Music_Circuit/) |
-| [2026-11-24](../issues/2026-11-24.md) | [Definition-Guided In-Context Learning for Zero-Shot Spoken Language Understanding](https://arxiv.org/abs/2611.28929)<br><sub>Indian Institute of Science</sub> | 用随机化自然语言定义微调，使语音模型零样本适应新 SLU 标签 | Method | 离线对齐 | — | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [Beyond File-Level Splits: Rethinking Symbolic Music Evaluation via Multi-View Alignment](https://arxiv.org/abs/2611.28765)<br><sub>Queen Mary University of London</sub> | 用多视角对齐识别同作品不同演奏，避免符号音乐评测泄漏 | Method | 数据与评测 | — | [仅主页](https://kunbai05-nb.github.io/) |
-| [2026-11-24](../issues/2026-11-24.md) | [Who Plays What: Same-Instrument Music Separation from Video](https://arxiv.org/abs/2611.29411)<br><sub>Singapore University of Technology and Design</sub> | 靠演奏动作从同乐器合奏视频中分离被点选乐手 | Method | 数据与评测 | — | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [CANDOR: A Multilingual Provenance-Documented Corpus for Dysarthric Speech Research](https://arxiv.org/abs/2611.28930)<br><sub>SMF Labs / The Scott-Morgan Foundation · Language Resources and Evaluation (submitted)</sub> | 汇总17语种构音障碍语音并记录来源与许可 | Dataset | 数据与评测 | — | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [Scoring L2 Pronunciation Without Synthesis: Counterfactual Velocity Contrast in Frozen Flow-Matching TTS](https://arxiv.org/abs/2611.29985) | 用冻结流匹配 TTS 的速度误差对比给 L2 发音打分 | Method | — | — | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models](https://arxiv.org/abs/2611.30723)<br><sub>JAIST</sub> | 用共享index双向对齐语义/声学分支，统一语音码并做零样本TTS | Method | 架构与流式 | — | [仅主页](https://seekmind-lab.github.io/bisat-demo) |
-| [2026-11-24](../issues/2026-11-24.md) | [Characterizing Frozen SSL Encoders and Backends for Cross-Domain Speech Deepfake Detection](https://arxiv.org/abs/2611.29865)<br><sub>IEEE ISM 2026</sub> | 冻结SSL并交叉比较编码器与后端的跨域假声检测 | Method | — | — | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [Synthetic Twins: Closing the Gap Between TTS Test Sets and Real Recordings in Turkish ASR Evaluation](https://arxiv.org/abs/2611.30694) | 逐步叠加说话人克隆与信道，缩小合成 ASR 测试集与真机差距 | Method | 数据与评测 | — | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [Voice Agents: From Auditory Intelligence to Auditory Agency](https://arxiv.org/abs/2611.29465)<br><sub>National University of Defense Technology</sub> | 用承诺边界与能动闭环刻画语音从感知到可追责行动 | Tech Report | — | — | 暂无 |
 | [2026-11-23](../issues/2026-11-23.md) | [SLP-Bench: Evaluating and Improving Acoustic Claims of Reasoning Audio Language Models on Clinical Speech](https://arxiv.org/abs/2611.27810)<br><sub>Callyope · ICASSP 2027 workshop (submitted)</sub> | 用临床感知评分核验推理音频模型思维链中的声学断言。 | — | — | — | 暂无 |
 | [2026-11-23](../issues/2026-11-23.md) | [PromptTTSD: Controllable Text to Spoken Dialogue Synthesis with Open-Ended Text Descriptions](https://arxiv.org/abs/2611.27601)<br><sub>BUPT / BIGAI</sub> | 从有声书抽八千小时对话，用开放式风格描述做可控多轮TTS。 | — | — | — | 暂无 |
 | [2026-11-23](../issues/2026-11-23.md) | [Neural Defend ARCAS 290M: A Robust Foundation Model for AI-Generated Audio Detection](https://arxiv.org/abs/2611.27784) | 封闭 290M 音频深伪检测器，在十个公开测试集上零样本评测。 | — | — | — | 暂无 |
@@ -101,12 +85,6 @@
 | [2026-11-11](../issues/2026-11-11.md) | [AudioCodex: Streaming Autoencoders for Live Audio](https://arxiv.org/abs/2611.12375)<br><sub>ISMIR 2026</sub> | 面向直播的严格因果、约 10 Hz 连续音频编码。 | — | — | — | 暂无 |
 | [2026-11-11](../issues/2026-11-11.md) | [Music Inpainting With Similarity-Guided Latent Diffusion](https://arxiv.org/abs/2611.11522)<br><sub>ISMIR 2026</sub> | 相似度检索引导扩散，修补音乐大段缺失。 | — | — | — | 暂无 |
 | [2026-11-11](../issues/2026-11-11.md) | [REAL: Reward Modeling through Evidence-Linked Analysis of Lifelikeness in Generated Speech](https://arxiv.org/abs/2611.12406) | 用时间戳证据链监督训练语音拟真奖励模型。 | — | — | — | 暂无 |
-
-## 副板块收录（1）
-
-主板块在别处、兼属本板块的论文。
-
-- 2026-11-24 · B · [From Spatial Perception to Speech Recovery: Binaural Semantic Adaptation for Spatially Grounded Multi-Talker Transcription](https://arxiv.org/abs/2611.29012)（主板块：空间音视频）
 
 ---
 

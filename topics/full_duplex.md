@@ -4,7 +4,7 @@
 
 > 严格限定实时/流式交互：边听边说、边看边聊、话轮/提前开口/打断控制、多人全双工、实时主动交互助手、实时对话化身及其评测
 
-共 3 篇 A、17 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
+共 3 篇 A、14 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
 
 ## A 类（3）
 
@@ -21,14 +21,11 @@
   - Method / Model/Weights · 代码已开源 · NetEase Youdao
   - 技术关键词：Longest Stable Prefix · LSP · stable-prefix
 
-## B 类（17）
+## B 类（14）
 
 | 日期 | 标题 | 核心改动 | 类型 | 方法族 | 副板块 | 代码/数据 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [2026-11-24](../issues/2026-11-24.md) | [UUBench: Understanding the Unspoken toward Full-Duplex Multimodal Interaction](https://arxiv.org/abs/2611.30157) | 提出评测全双工系统能否理解并回应未言明意图的基准 | Benchmark | 数据与评测 | — | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [BASE: A Backend-Agnostic Streaming Embodiment Layer for Full-Duplex Conversational Avatars](https://arxiv.org/abs/2611.30388) | 提出仅凭语音对接任意全双工后端的流式化身层 | Method / System/Code | 架构与流式 | — | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [SayWhen: Set-Valued Semantic Commitment for Low-Regret Early Speech](https://arxiv.org/abs/2611.31101)<br><sub>Ryquo / App-In Club · NeurIPS 2026 Workshop PTA</sub> | 测试时控制器在用户话音结束前做低后悔的提前开口 | Method | 架构与流式 | — | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [EMIP: Embodied Multi-Party Interaction Platform](https://arxiv.org/abs/2611.29333)<br><sub>Okayama Prefectural University</sub> | 基于Minecraft的多人全双工语音与同时动作具身平台 | System/Code | — | — | [代码已开源](https://github.com/AI-Humans-Lab/EMIP-Embodied-Multi-Party-Interaction-Platform) |
+| [2026-11-25](../issues/2026-11-25.md) | [BASE: A Backend-Agnostic Streaming Embodiment Layer for Full-Duplex Conversational Avatars](https://arxiv.org/abs/2611.30388)<br><sub>United Arab Emirates University</sub> | 只读输出语音驱动化身，并用DAHP缓解历史漂移 | System/Code / Method | 架构与流式 | — | 暂无 |
 | [2026-11-21](../issues/2026-11-21.md) | [Duopra: From Full-Duplex Conversation to Full-Duplex Agency](https://arxiv.org/abs/2611.25773)<br><sub>Shanghai Jiao Tong University / Tencent</sub> | 全双工前端学工具调用与委派，同后端Pass@1从4.7%升至44.7% | — | — | — | 暂无 |
 | [2026-11-19](../issues/2026-11-19.md) | [Constructing Dynamic Conversations with Neural Back-channel Generation and Voice-line Scheduling](https://arxiv.org/abs/2611.24086)<br><sub>University of Toronto, JALI Research · ACM SIGGRAPH MIG 2026</sub> | 独立配音经全双工调度插入重叠与反馈，合成可控双人对话 | — | — | — | 暂无 |
 | [2026-11-19](../issues/2026-11-19.md) | [When Should a Voice Agent Speak? End-of-Turn Detection in Turkish](https://arxiv.org/abs/2611.25489) | 土耳其语轮次结束检测：微调TurnGPT结合时序可缩短回复延迟 | — | — | — | 暂无 |
@@ -42,6 +39,13 @@
 | [2026-11-11](../issues/2026-11-11.md) | [Real-Time Short-Response Selection for Spoken Dialogue Systems](https://arxiv.org/abs/2611.09057)<br><sub>The University of Osaka</sub> | 在VAP上用对比学习实时挑选预生成短回复以掩盖生成延迟。 | — | — | — | 暂无 |
 | [2026-11-11](../issues/2026-11-11.md) | [Joi-Bench-Task: Benchmarking Task Coordination in Full-duplex Voice Agents through Interactive Simulation](https://arxiv.org/abs/2611.12118)<br><sub>Tencent</sub> | 用可干预模拟器评测语音智能体任务协调，商用系统仍失败。 | — | — | — | 暂无 |
 | [2026-11-11](../issues/2026-11-11.md) | [Benchmarking Speaker Embedders in the Sub-Second Regime for Real-Time Voice AI Agents](https://arxiv.org/abs/2611.09516)<br><sub>AIST 2026</sub> | 亚秒预算下对比开源说话人嵌入，给出实时语音助手部署建议。 | — | — | — | 暂无 |
+
+## 副板块收录（2）
+
+主板块在别处、兼属本板块的论文。
+
+- 2026-11-25 · B · [BEARING: Who Is Talking to Whom? Grounding Acoustic Direction in Vision for Online Multi-Party Conversation](https://arxiv.org/abs/2611.31735)（主板块：空间音视频）
+- 2026-11-25 · B · [Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock](https://arxiv.org/abs/2611.30895)（主板块：第一人称与全景理解）
 
 ---
 

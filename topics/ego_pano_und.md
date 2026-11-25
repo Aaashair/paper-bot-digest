@@ -4,18 +4,10 @@
 
 > 严格只收理解：第一人称（可穿戴/AI 眼镜）与 360° 全景视频的时空理解、问答、流式记忆、场景与三维几何感知
 
-共 8 篇 A、64 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
+共 6 篇 A、57 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
 
-## A 类（8）
+## A 类（6）
 
-- **2026-11-24** · [EgoDepth-Bench: Benchmarking Metric Depth for Egocentric Manipulation](https://arxiv.org/abs/2611.30734) · [第 8 期卡片](../issues/2026-11-24.md#a-2611.30734)
-  - 94万样本的第一人称操作度量深度基准
-  - Dataset / Benchmark · 仅主页 · GenRobot
-  - 技术关键词：EgoDepth-Bench · MapAnything · AbsRel
-- **2026-11-24** · [OmniV-Bench: Can MLLMs Comprehend Immersive Spatio-temporal Scenes?](https://arxiv.org/abs/2611.31022) · [第 8 期卡片](../issues/2026-11-24.md#a-2611.31022)
-  - 4123条全景视频、11项任务的 MLLM 时空理解基准
-  - Benchmark / Dataset · 暂无 · Shanghai Jiao Tong University / Beijing University of Technology / Tsinghua University
-  - 技术关键词：OmniV-Bench · OmniV-Harness · MLLMs
 - **2026-11-23** · [RoboCap-10k: A Metrically Accurate Egocentric Dataset for Robot Learning](https://arxiv.org/abs/2611.26916) · [第 7 期卡片](../issues/2026-11-23.md#a-2611.26916)
   - 约一万小时单设备职业第一人称视频，含度量头手三维标注。
   - Dataset · 仅主页 · Grounded Superintelligence / BitRobot
@@ -41,20 +33,13 @@
   - Dataset · 仅主页
   - 技术关键词：motion capture · egocentric · loco-manipulation
 
-## B 类（64）
+## B 类（57）
 
 | 日期 | 标题 | 核心改动 | 类型 | 方法族 | 副板块 | 代码/数据 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [2026-11-25](../issues/2026-11-25.md) | [Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock](https://arxiv.org/abs/2611.30895)<br><sub>Beijing University of Posts and Telecommunications/Queen Mary University of London</sub> | 同时刻正负配对微调，迫使助手凭画面而非时钟开口 | Method | 数据与评测 | 实时全双工交互 | 暂无 |
 | [2026-11-25](../issues/2026-11-25.md) | [Clinical3D-Bench: Evaluating and Improving Spatial Intelligence of Multimodal LLMs in Hospital Environments](https://arxiv.org/abs/2611.32094)<br><sub>University of Science and Technology of China / IAIC, A*STAR / Wenzhou Medical University</sub> | 建医院第一人称空间问答基准，用三维原语修正选项分 | Benchmark / Method | 推理范式 / 数据与评测 | — | [数据已开源](https://huggingface.co/datasets/clinicalspace/Clinical3D-Bench) |
-| [2026-11-24](../issues/2026-11-24.md) | [G0.7: Scaling Up a Fast World Action Model with Long Context](https://arxiv.org/abs/2611.31822)<br><sub>Galaxea</sub> | 把 Fast-WAM 扩到五分钟上下文，并用第一人称视频预训练 | Model/Weights / Tech Report | 架构与流式 / 数据与评测 | 空间音视频 | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [Ego2Wrist: Bootstrapping Wrist-View Synthesis from Egocentric Video](https://arxiv.org/abs/2611.29850)<br><sub>Yale University</sub> | 由头戴视频合成腕部视角，并用 HCC 自举改进 | Method | 数据与评测 | — | [仅主页](https://adonis-galaxy.github.io/Ego2Wrist/) |
-| [2026-11-24](../issues/2026-11-24.md) | [HIVE-Bench: Evaluating Patch-Level Visual Representations for Egocentric Robot Manipulation](https://arxiv.org/abs/2611.30813)<br><sub>HKUST (Guangzhou) · ICLR 2027 Conference Submission</sub> | 用同一策略头比较 20 个第一人称 patch 视觉编码器 | Benchmark | 数据与评测 | — | [代码已开源](https://github.com/KolaKivy/HIVE-Bench) |
-| [2026-11-24](../issues/2026-11-24.md) | [EgoStudy: How Does Scaling Egocentric Data Affect VLA and WAM Pretraining?](https://arxiv.org/abs/2611.30490)<br><sub>Tsinghua University</sub> | 控制实验看第一人称数据规模如何影响 VLA/WAM | Tech Report | 数据与评测 | — | [仅主页](https://puzhenyuan.github.io/EgoStudy-website) |
-| [2026-11-24](../issues/2026-11-24.md) | [ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild](https://arxiv.org/abs/2611.30597)<br><sub>Nanyang Technological University</sub> | 用几何约束替代深度回归，从自我中心视频重建三维手 | Method | 架构与流式 | — | [代码已开源](https://github.com/NTUYWANG103/ViDiHand) |
-| [2026-11-24](../issues/2026-11-24.md) | [Ego-HMB: Human Motion Bridging from Egocentric Images via A Motion Bridge Diffusion Model](https://arxiv.org/abs/2611.29218)<br><sub>NeurIPS 2026</sub> | 由两帧第一人称图像扩散补全中间三维人体运动 | Method | 架构与流式 | — | [仅主页](https://github.com/gaogehan/Ego-HMB) |
-| [2026-11-24](../issues/2026-11-24.md) | [HandiVid: A High-Quality Dataset for Hand-Driven Interactive Video Generation](https://arxiv.org/abs/2611.29693)<br><sub>LynnReal AI</sub> | 20万段带手部与相机标注的自我中心交互视频数据 | Dataset | 数据与评测 | — | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [Seeing Together, Acting Apart: Shared Environmental Understanding for Multi-Robot Navigation](https://arxiv.org/abs/2611.30310)<br><sub>USTC / MBZUAI · NeurIPS 2026</sub> | 多机第一人称观测汇入共享潜空间世界模型再导航 | Method | 架构与流式 | 空间音视频 | 暂无 |
-| [2026-11-24](../issues/2026-11-24.md) | [Teacher-Guided Multimodal Dual Representation Reconstruction for Egocentric Human Activity Recognition](https://arxiv.org/abs/2611.28090)<br><sub>IEEE Sensors Journal</sub> | 双教师重建稀疏视惯融合表示，用于第一人称活动识别 | Method | — | — | 暂无 |
+| [2026-11-25](../issues/2026-11-25.md) | [OmniV-Bench: Can MLLMs Comprehend Immersive Spatio-temporal Scenes?](https://arxiv.org/abs/2611.31022)<br><sub>Shanghai Jiao Tong University / Beijing University of Technology / Tsinghua University</sub> | 提出全向视频十一任务基准，并用六面视角取证提升问答 | Benchmark / 智能体/工具调用 | 数据与评测 | — | 暂无 |
 | [2026-11-23](../issues/2026-11-23.md) | [EgoSurgHands: An Egocentric 3D Hand Pose Dataset & Benchmark for Open Surgery Training](https://arxiv.org/abs/2611.27101)<br><sub>Harvard Medical School / Beth Israel Deaconess Medical Center · NeurIPS 2026 Evaluations and Datasets Track</sub> | 发布开放手术训练中真实第一人称三维手部姿态数据集与基准。 | — | — | — | 暂无 |
 | [2026-11-23](../issues/2026-11-23.md) | [EgoLAM: Learning Latent Actions from Hand and Head Motion](https://arxiv.org/abs/2611.27290)<br><sub>Tsinghua University / Tongji University</sub> | 用腕部运动监督潜在动作，把头动交给前向模型以剥离相机运动。 | — | — | — | 暂无 |
 | [2026-11-23](../issues/2026-11-23.md) | [Ego2Ego: Generative Visual Perspective Taking Across Collaborators](https://arxiv.org/abs/2611.27459)<br><sub>University of Stuttgart / Toyota Research Institute</sub> | 由己方第一人称视频生成协作者连续第一人称视角。 | — | — | — | 暂无 |
@@ -109,12 +94,6 @@
 | [2026-11-11](../issues/2026-11-11.md) | [EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary](https://dl.acm.org/doi/abs/10.1145/3767308.3837706)<br><sub>ACM MM 2026</sub> | ACM MM 2026 第一人称社交推理与交互智能体挑战赛综述。 | — | — | — | 暂无 |
 | [2026-11-11](../issues/2026-11-11.md) | [Disentangling Where and When: Factored Spatio-Temporal Explanations for Video Action Recognition](https://arxiv.org/abs/2611.11214)<br><sub>Oregon State University · NeurIPS 2026</sub> | 把视频动作解释拆成空间外观与时间运动掩膜并分别评测。 | — | — | — | 暂无 |
 | [2026-11-11](../issues/2026-11-11.md) | [Scale-Consistent Monocular Fisheye Visual Odometry via Spherical Bundle Adjustment-Guided Unsupervised Depth Learning](https://arxiv.org/abs/2611.11934)<br><sub>Tongji University</sub> | 球面 BA 引导无监督深度，改善单目鱼眼视觉里程计的尺度一致性。 | — | — | — | 暂无 |
-
-## 副板块收录（1）
-
-主板块在别处、兼属本板块的论文。
-
-- 2026-11-24 · A · [World Models as Native Latent Action Models](https://arxiv.org/abs/2611.30898)（主板块：交互式与通用世界模型）
 
 ---
 
