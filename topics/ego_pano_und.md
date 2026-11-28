@@ -4,7 +4,7 @@
 
 > 严格只收理解：第一人称（可穿戴/AI 眼镜）与 360° 全景视频的时空理解、问答、流式记忆、场景与三维几何感知
 
-共 6 篇 A、57 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
+共 6 篇 A、60 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
 
 ## A 类（6）
 
@@ -33,11 +33,14 @@
   - Dataset · 仅主页
   - 技术关键词：motion capture · egocentric · loco-manipulation
 
-## B 类（57）
+## B 类（60）
 
 | 日期 | 标题 | 核心改动 | 类型 | 方法族 | 副板块 | 代码/数据 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [2026-11-25](../issues/2026-11-25.md) | [Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock](https://arxiv.org/abs/2611.30895)<br><sub>Beijing University of Posts and Telecommunications/Queen Mary University of London</sub> | 同时刻正负配对微调，迫使助手凭画面而非时钟开口 | Method | 数据与评测 | 实时全双工交互 | 暂无 |
+| [2026-11-28](../issues/2026-11-28.md) | [Who Is Ego? Scaling Cross-View Camera Wearer Identification and Segmentation beyond Humans](https://arxiv.org/abs/2611.34489)<br><sub>Central South University / Fudan University / KAUST</sub> | 用极点几何把冻结三维重建转成佩戴者识别与分割。 | Dataset / Method | 数据与评测 | — | 暂无 |
+| [2026-11-28](../issues/2026-11-28.md) | [AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos](https://arxiv.org/abs/2611.34347)<br><sub>Tencent Robotics X Lab · ICLR 2027 Conference Withdrawn Submission</sub> | 用因果前缀评第一人称社交决策的A-I-R-I链。 | Benchmark | 数据与评测 | — | [代码已开源](https://github.com/AIRIS-bench/AIRIS) |
+| [2026-11-28](../issues/2026-11-28.md) | [EgoCARBS: Egocentric Video Meets Active Acoustics for Kitchen Action Understanding](https://arxiv.org/abs/2611.33565)<br><sub>Cornell University / Amazon</sub> | 用眼镜和手表的超声回波补第一人称出画手部 | Dataset / Benchmark | 数据与评测 | — | [仅主页](https://saif-mahmud.github.io/projects/ego-carbs/) |
+| [2026-11-25](../issues/2026-11-25.md) | [Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock](https://arxiv.org/abs/2611.30895)<br><sub>Beijing University of Posts and Telecommunications/Queen Mary University of London</sub> | 同时刻正负配对微调，迫使助手凭画面而非时钟开口 | Method | 数据与评测 | 全双工与实时交互 | 暂无 |
 | [2026-11-25](../issues/2026-11-25.md) | [Clinical3D-Bench: Evaluating and Improving Spatial Intelligence of Multimodal LLMs in Hospital Environments](https://arxiv.org/abs/2611.32094)<br><sub>University of Science and Technology of China / IAIC, A*STAR / Wenzhou Medical University</sub> | 建医院第一人称空间问答基准，用三维原语修正选项分 | Benchmark / Method | 推理范式 / 数据与评测 | — | [数据已开源](https://huggingface.co/datasets/clinicalspace/Clinical3D-Bench) |
 | [2026-11-25](../issues/2026-11-25.md) | [OmniV-Bench: Can MLLMs Comprehend Immersive Spatio-temporal Scenes?](https://arxiv.org/abs/2611.31022)<br><sub>Shanghai Jiao Tong University / Beijing University of Technology / Tsinghua University</sub> | 提出全向视频十一任务基准，并用六面视角取证提升问答 | Benchmark / 智能体/工具调用 | 数据与评测 | — | 暂无 |
 | [2026-11-23](../issues/2026-11-23.md) | [EgoSurgHands: An Egocentric 3D Hand Pose Dataset & Benchmark for Open Surgery Training](https://arxiv.org/abs/2611.27101)<br><sub>Harvard Medical School / Beth Israel Deaconess Medical Center · NeurIPS 2026 Evaluations and Datasets Track</sub> | 发布开放手术训练中真实第一人称三维手部姿态数据集与基准。 | — | — | — | 暂无 |

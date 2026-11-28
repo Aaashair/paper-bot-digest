@@ -1,8 +1,8 @@
-# 第 6 板块 · 交互式与通用世界模型
+# 第 6 板块 · 通用世界模型与仿真
 
-*Interactive & General World Models*
+*General World Models & Simulation*
 
-> 只收 A：实时可交互世界模拟、声画同步世界模型、具备通用范式启发意义的潜空间动力学/世界模型（如 Native LAM）
+> 只收 A：通用物理/视频世界模型、动作或视角可控的交互式环境/游戏/3D/具身仿真（Genie、Cosmos 类）；明确排除以人机实时音视频对话为核心的工作（哪怕标题自称 World Model，归第 3 板块）
 
 前沿雷达：本板块只收 A（v4 起）。v4 之前映射进来的往期 B 保留在下方，仅供回看。
 
