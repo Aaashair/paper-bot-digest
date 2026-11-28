@@ -2,12 +2,12 @@
 
 个人用的论文筛选归档，宁缺毋滥。每周三、周六中午（新加坡时间）更新。
 
-最新：第 8 期 · 2026-11-25（2026-11-22 – 2026-11-25）· [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-25/) · [Markdown](issues/2026-11-25.md) · [Page](https://cursor.com/canvas/store-e1c619e9-9a18-45c2-be84-6a0452d9876f/64510c92-4dce-4196-b8b8-1f618dc85549)
+最新：第 9 期 · 2026-11-28（2026-11-26 – 2026-11-28）· [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-28/) · [Markdown](issues/2026-11-28.md) · [Page](https://cursor.com/canvas/store-e1c619e9-9a18-45c2-be84-6a0452d9876f/64510c92-4dce-4196-b8b8-1f618dc85549)
 
 ## 板块
 
-- 核心主线：1. [空间音视频](topics/spatial_audiovisual.md)　2. [Omni 全模态模型与智能体](topics/omni_agent.md)　3. [实时全双工交互](topics/full_duplex.md)　4. [音频理解与生成](topics/audio_ug.md)　5. [第一人称与全景理解](topics/ego_pano_und.md)
-- 前沿雷达（只收 A）：6. [交互式与通用世界模型](topics/world_models.md)　7. [上游方法前沿](topics/upstream_methods.md)
+- 核心主线：1. [空间音视频](topics/spatial_audiovisual.md)　2. [Omni 全模态模型与智能体](topics/omni_agent.md)　3. [全双工与实时交互](topics/full_duplex.md)　4. [音频理解与生成](topics/audio_ug.md)　5. [第一人称与全景理解](topics/ego_pano_und.md)
+- 前沿雷达（只收 A）：6. [通用世界模型与仿真](topics/world_models.md)　7. [上游方法前沿](topics/upstream_methods.md)
 
 ## 规则
 
@@ -21,6 +21,7 @@
 
 | 期次 | 日期 | 风格 | A | B | 阅读 |
 | --- | --- | --- | ---: | ---: | --- |
+| 第 9 期 | 2026-11-28 | 暖陶（Claude 启发） | 0 | 5 | [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-28/) · [Markdown](issues/2026-11-28.md) |
 | 第 8 期 | 2026-11-25 | Kimi 风格 | 0 | 15 | [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-25/) · [Markdown](issues/2026-11-25.md) |
 | 第 7 期 | 2026-11-23 | OpenAI 风格 | 1 | 16 | [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-23/) · [Markdown](issues/2026-11-23.md) |
 | 第 6 期 | 2026-11-21 | 水墨风 | 3 | 14 | [网页](https://aaashair.github.io/paper-bot-digest/issues/2026-11-21/) · [Markdown](issues/2026-11-21.md) |

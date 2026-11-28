@@ -20,7 +20,7 @@
   - 音视频全双工世界模型，边感知边生成可打断。
   - 代码已开源 · [卡片](issues/2026-11-13.md#a-2611.15131)
 
-## 实时全双工交互（3）
+## 全双工与实时交互（3）
 
 - **2026-11-13** [Decode Before You Hear: Speculative Listening for Chunk-Interleaved Full-Duplex Speech Language Models](https://arxiv.org/abs/2611.06982) · 开创性 / 可作 baseline
   - 听时用静音假设投机解码，无损加速全双工推理。
