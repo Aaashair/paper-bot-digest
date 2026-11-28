@@ -4,7 +4,7 @@
 
 > 语音/音频大模型（含纯音频侧推理、工具调用与语音能动性）、TTS/音效/音乐生成、语音-文本对齐与 tokenizer、大规模高质量语音数据集与管线
 
-共 5 篇 A、52 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
+共 5 篇 A、53 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
 
 ## A 类（5）
 
@@ -29,10 +29,11 @@
   - Dataset · 暂无
   - 技术关键词：source separation · stem-conditioned synthesis · MIDI-to-audio
 
-## B 类（52）
+## B 类（53）
 
 | 日期 | 标题 | 核心改动 | 类型 | 方法族 | 副板块 | 代码/数据 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [2026-11-28](../issues/2026-11-28.md) | [TigerTTS: Draft-Guided Multi-Frame Parallel Speech-Token Language Model for Fast and Robust Text-to-Speech](https://arxiv.org/abs/2611.34241)<br><sub>Wiz Holdings Pte. Ltd.</sub> | 整句NAR草稿按帧注入，LLM每步并行预测12个token。 | Method / System/Code | 架构与流式 | — | 暂无 |
 | [2026-11-25](../issues/2026-11-25.md) | [LiveAudio: From Bidirectional to Autoregressive Diffusion for Real-Time Streaming Video-to-Audio Generation](https://arxiv.org/abs/2611.30714)<br><sub>Tsinghua University / Monash University / Renmin University of China</sub> | 把双向视频到音频模型转成四步实时分块生成器 | Method / System/Code | 架构与流式 | — | [仅主页](https://streamaudio.github.io/) |
 | [2026-11-25](../issues/2026-11-25.md) | [MusicListenBench: Can Audio LLMs Hear the Difference Yet?](https://arxiv.org/abs/2611.29375)<br><sub>Singapore University of Technology and Design/University of Venice · ICLR 2027 Conference Submission</sub> | 成对FLIP/STAY听辨，分开音乐变化与纯声响变化 | Benchmark | 数据与评测 / 在线强化学习 | — | [代码已开源](https://github.com/AMAAI-Lab/MusicListenBench) |
 | [2026-11-25](../issues/2026-11-25.md) | [SoundWeaver: Compositional Warm-Starting for Text-to-Audio Diffusion Serving](https://arxiv.org/abs/2603.07865)<br><sub>University of Illinois Urbana-Champaign/Assured Intelligence · ICLR 2027 Conference Submission</sub> | 跨缓存片段拼成声学先验，自适应热启动文生音频扩散 | Method / System/Code | — | — | 暂无 |

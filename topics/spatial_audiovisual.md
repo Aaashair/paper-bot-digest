@@ -21,7 +21,7 @@
 
 | 日期 | 标题 | 核心改动 | 类型 | 方法族 | 副板块 | 代码/数据 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [2026-11-25](../issues/2026-11-25.md) | [BEARING: Who Is Talking to Whom? Grounding Acoustic Direction in Vision for Online Multi-Party Conversation](https://arxiv.org/abs/2611.31735)<br><sub>University of Denver</sub> | 免标注配准阵列方位到画面，在线判别谁对谁说。 | Method / System/Code | 在线强化学习 / 离线对齐 | 实时全双工交互 | 暂无 |
+| [2026-11-25](../issues/2026-11-25.md) | [BEARING: Who Is Talking to Whom? Grounding Acoustic Direction in Vision for Online Multi-Party Conversation](https://arxiv.org/abs/2611.31735)<br><sub>University of Denver</sub> | 免标注配准阵列方位到画面，在线判别谁对谁说。 | Method / System/Code | 在线强化学习 / 离线对齐 | 全双工与实时交互 | 暂无 |
 | [2026-11-25](../issues/2026-11-25.md) | [From Spatial Perception to Speech Recovery: Binaural Semantic Adaptation for Spatially Grounded Multi-Talker Transcription](https://arxiv.org/abs/2611.29012)<br><sub>Xi'an Jiaotong-Liverpool University; University of Liverpool</sub> | 冻结骨干，用双耳共享编码和耳间差分补齐空间转写 | Method / Benchmark | 数据与评测 | — | 暂无 |
 | [2026-11-19](../issues/2026-11-19.md) | [Insight into Parametric First-Order Ambisonics Upscaling in Time and Frequency Domains](https://arxiv.org/abs/2611.23089)<br><sub>Ben-Gurion University</sub> | 按能量选早反射做FOA升阶，时频域更优 | — | — | — | 暂无 |
 | [2026-11-17](../issues/2026-11-17.md) | [Learning Spatially Aware Audio-Visual Features from Videos with Mono Audio](https://arxiv.org/abs/2611.19593)<br><sub>Georgia Tech / Dolby · WACV 2027</sub> | 单声道视频渲染伪双耳，学习可泛化的空间视听表征。 | — | — | — | 暂无 |

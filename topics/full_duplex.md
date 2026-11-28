@@ -1,10 +1,10 @@
-# 第 3 板块 · 实时全双工交互
+# 第 3 板块 · 全双工与实时交互
 
-*Real-Time Full-Duplex Interaction*
+*Full-Duplex & Real-Time Interaction*
 
-> 严格限定实时/流式交互：边听边说、边看边聊、话轮/提前开口/打断控制、多人全双工、实时主动交互助手、实时对话化身及其评测
+> 所有以「实时双向/全双工交互机制或流式主动交互体验」为核心卖点的工作：纯语音全双工、多/全模态全双工交互、主动式流式音视频助手、端到端实时音视频交互系统及其评测
 
-共 3 篇 A、14 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
+共 3 篇 A、15 篇 B；由 `export_markdown.py` 每次运行从 `runs/issues.json` 重建，请勿手改。
 
 ## A 类（3）
 
@@ -21,10 +21,11 @@
   - Method / Model/Weights · 代码已开源 · NetEase Youdao
   - 技术关键词：Longest Stable Prefix · LSP · stable-prefix
 
-## B 类（14）
+## B 类（15）
 
 | 日期 | 标题 | 核心改动 | 类型 | 方法族 | 副板块 | 代码/数据 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [2026-11-28](../issues/2026-11-28.md) | [$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents](https://arxiv.org/abs/2611.34920)<br><sub>Shanghai Jiao Tong University / Shanghai Artificial Intelligence Laboratory / Tsinghua University</sub> | 以反应式多用户仿真评测共享全双工语音联合任务成功 | Benchmark / Dataset | 数据与评测 | — | [代码已开源](https://github.com/lqh1106/mu-bench) |
 | [2026-11-25](../issues/2026-11-25.md) | [BASE: A Backend-Agnostic Streaming Embodiment Layer for Full-Duplex Conversational Avatars](https://arxiv.org/abs/2611.30388)<br><sub>United Arab Emirates University</sub> | 只读输出语音驱动化身，并用DAHP缓解历史漂移 | System/Code / Method | 架构与流式 | — | 暂无 |
 | [2026-11-21](../issues/2026-11-21.md) | [Duopra: From Full-Duplex Conversation to Full-Duplex Agency](https://arxiv.org/abs/2611.25773)<br><sub>Shanghai Jiao Tong University / Tencent</sub> | 全双工前端学工具调用与委派，同后端Pass@1从4.7%升至44.7% | — | — | — | 暂无 |
 | [2026-11-19](../issues/2026-11-19.md) | [Constructing Dynamic Conversations with Neural Back-channel Generation and Voice-line Scheduling](https://arxiv.org/abs/2611.24086)<br><sub>University of Toronto, JALI Research · ACM SIGGRAPH MIG 2026</sub> | 独立配音经全双工调度插入重叠与反馈，合成可控双人对话 | — | — | — | 暂无 |
